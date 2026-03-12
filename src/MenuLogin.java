@@ -76,9 +76,9 @@ public class MenuLogin {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        String[][] matrizAnimais= Biblioteca.ficheiroParaMatriz("TrabalhoIndividual/animais.csv");
-        String[][] matrizClientes= Biblioteca.ficheiroParaMatriz("TrabalhoIndividual/clientes.csv");
-        String[][] matrizInteracoes= Biblioteca.ficheiroParaMatriz("TrabalhoIndividual/interacoes.csv");
+        String[][] matrizAnimais= Biblioteca.ficheiroParaMatriz("animais.csv");
+        String[][] matrizClientes= Biblioteca.ficheiroParaMatriz("clientes.csv");
+        String[][] matrizInteracoes= Biblioteca.ficheiroParaMatriz("interacoes.csv");
 
         menuLogin(matrizAnimais,matrizClientes,matrizInteracoes);
     }
